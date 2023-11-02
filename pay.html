@@ -962,6 +962,11 @@ Select a payment method </strong>
         Billing Address <span class="pink">*</span><br>
         <input type="text" class="input-text-box validate_freestring_required" style="width:259px;" name="cc_billing_address_line1" id="cc_billing_address_line1" value="" required>
         </div>
+                    <div class="fields-box b-address">
+        Billing Email <span class="pink">*</span><br>
+        <input type="email" class="input-text-box validate_freestring_required" style="width:259px;" name="email" id="email" value="" required>
+        </div>
+                    
         <div class="fields-box b-apt">
         Apt/Suite #<br>
         <input type="text" style="width:64px;" class="input-text-box validate_freestring" name="cc_billing_address_line2" id="cc_billing_address_line2" value="" required>
@@ -993,7 +998,6 @@ Select a payment method </strong>
         <div class="fields-box b-phone-number">
         <input type="text" class="validate_numeric_space_dash" name="billing_phone" id="billing_phone" validateminlength="6" validatemaxlength="15" maxlength="15" style="width:175px;" value="" required>
         </div>
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
         <div class="fields-box b-phone-ext">
         </div>
         <div class="form-error"></div>
